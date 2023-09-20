@@ -1,0 +1,40 @@
+.chats{
+    width: 100%;
+    height: 42em;
+    background-color: rgb(7, 7, 53);
+    color: white;
+}
+
+.contents{
+    display: flex;
+}
+
+.prompt-data-field-contents{
+margin: 0 5em;
+}
+
+
+.select-contents{
+    width: 10em;
+    height: 2em;
+    background-color: rgb(7, 7, 53);
+    color: white;
+}
+
+.prompt-text-contents{
+    width: 40em;
+    color: white;
+    background-color: white;
+}
+
+.flex-data-contents{
+    display: flex;
+}
+
+.all-content{
+    align-items: center;
+    padding: 2em;
+    background-color:rgb(7, 7, 53) ;    
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,200 @@
+/* the service content start */
+.section-content{
+    text-align: center;
+}
+/* the service content finish */
+
+ /* heading of the service start */
+.sec{
+    margin-top:3em;
+    margin-bottom: 1em;
+    }
+ /* heading of the service start */
+
+ /* content of heading start */
+.conti{
+    margin: 2em 5em 2em 5em;
+    padding-bottom: 3em;
+    border-bottom: 2px solid blue;
+}
+/* content of heading start */
+
+ /* All checkbox and data finish */
+.section-inline{
+    margin: 3em;
+    }
+
+    /* checkbox and the content1 start */
+    .section-inline-content{
+        display: flex;
+        margin: 1.5em 0 0 5em;
+    }
+   
+    .content-section{
+        padding-left: 3em;
+        font-size: 1.3em;
+        font-weight:600;
+    }
+     /* checkbox and the content1 finish */
+
+/* additional information about the service start */
+     .content-dataset-services{
+        margin: 2em 0;
+        padding: 0 5em;
+        font-size: 1.2em;
+        font-family:Arial, Helvetica, sans-serif;
+        color:grey
+    }
+/* additional information about the service finish */
+
+ /* service data construct with image start*/
+.service-content{
+    text-align: center;
+    margin:5em 0 5em 0;
+}
+
+.service-data{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #fafafa;
+    /* margin: 3em; */
+    padding: 3em;
+    }
+
+.para-service1{
+    padding: 2em 0 0 5em;
+     text-align: justify;
+     font-size: 1.1em;
+   
+ }
+ .para-service2{
+     padding:2em 5em 0 0;
+     text-align: justify;
+     font-size: 1.1em;
+ }
+
+ .images{
+    width: 25em;
+    height: 20em;
+}
+ /* service data construct with image finish*/
+
+/* .service-rows-data{
+    display: inline;
+} */
+
+
+/* the boxes start */
+.datafield-ai{
+    display: flex;
+    align-items:center ;
+    padding: 3em;
+    background-color: rgb(7, 78, 209);
+    margin-bottom: 5em;
+}
+
+.datafield{
+    padding: 2em;
+    background-color: blue;
+    color: white;
+    text-align: justify;
+}
+.datafields{
+    padding-left: 3em;
+}
+
+@media screen and (max-width:900px) {
+    /* checkbox and the content1 start */
+    .section-inline-content{
+        display: flex;
+        margin: 1.5em 0 0 2em;
+    }
+   
+    .content-section{
+        padding-left: 1em;
+        font-size: 1.3em;
+        font-weight:600;
+    }
+     /* checkbox and the content1 finish */
+
+     /* additional information about the service start */
+     .content-dataset-services{
+        text-align: justify;
+        margin: 2em 0;
+        padding: 0 5em;
+        font-size: 1.2em;
+        font-family:Arial, Helvetica, sans-serif;
+        color:grey;
+        line-height: 1.5em;
+        /* additional information about the service finish */
+     }
+        
+ /* service data construct with image start*/
+.service-content{
+    text-align: center;
+    margin:5em 0 5em 0;
+}
+
+.headings-data{
+    display: none;
+}
+
+.service-data{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    }
+
+.para-service1{
+    padding: 1em 2em;
+     text-align: justify;
+     font-size: 1.1em;
+   
+ }
+ .para-service2{
+     padding:1em 2em;
+     text-align: justify;
+     font-size: 1.1em;
+ }
+
+ .img-data{
+    order: 1;
+ }
+ .service-rows-data{
+    order: 2;
+ }
+
+ .images{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 25em;
+    height: 20em;
+    margin: 0 ;
+}
+ /* service data construct with image finish*/
+
+ 
+/* the boxes start */
+.datafield-ai{
+    display: inline;
+    align-items:center ;
+    padding: 0;
+    background-color: rgb(7, 78, 209);
+    /* margin-bottom: 5em; */
+}
+
+.datafield{
+    padding: 2em;
+    background-color: blue;
+    color: white;
+    text-align: justify;
+}
+.datafields{
+    margin-top: 3em;
+    padding-left: 0;
+}
+/* the boxes finish */
+
+}

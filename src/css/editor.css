@@ -1,0 +1,287 @@
+/* front page css start  */
+.section{
+    display: flex;
+    justify-content: center;
+  }
+  .section-data{
+    margin: 3em 3em 5em 3em;
+  }
+
+  .prompt-button-start{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-prompt{
+    height: 3.5em;
+    width: 18em;
+  }
+.prompt-content{
+    font-size: 1.5em;
+   margin:1em 7em;
+   line-height: 2em;
+}
+
+.prompt-text{
+    width: 35em;
+}
+
+.prompt-data{
+    margin: 3em 10em 0 10em;
+}
+
+.prompt-data-field{
+    margin-top: 2em;
+}
+
+.select{
+    width: 42em;
+    height: 4em;
+}
+
+.options{
+   zoom: 1.2;  
+}
+.prompt-button{
+    margin-top: 2em;
+}
+
+.prompt-example{
+    display: flex;
+}
+
+.prompt-para{
+text-align: justify;
+font-size: 1.1em;
+}
+
+.what-prompt{
+  margin: 5em 10em;
+  text-align: center;
+}
+
+.prompt-p{
+padding: 1em;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+.prompt-points{
+ text-align: start;
+}
+
+.prompt-point{
+  margin:1em auto ;
+  font-size: 1.3em;
+}
+
+/* front page css finish  */
+
+/* footer css  start desktop device */
+.footer{
+  padding:3em 10em;
+  display: flex;
+  gap: 8em;
+  background-color: black;
+}
+
+.footer-name{
+  color: white;
+}
+
+.links-footer{
+  color: grey;
+  display: flex;
+  grid-gap: 2em;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.links-footer:hover{
+ transition: 1s;
+  color:rgb(255, 251, 251);
+}
+
+.footer-info{
+  display:flex;
+}
+/* footer css finish desktop device */
+
+@media screen and (max-width:600px) {
+  
+  /* front page media query css start mobile device  */
+.section{
+  display: inline;
+  justify-content: center;
+}
+.section-data{
+ margin: 3em 0 5em 0;
+}
+
+.prompt-button-start{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.button-prompt{
+  height: 3.5em;
+  width: 18em;
+}
+.prompt-content{
+  font-size: 1.5em;
+ margin:1em 1em;
+ line-height: 2em;
+}
+
+.prompt-text{
+  width: 20em;
+}
+
+.prompt-data{
+  margin: 3em 1em 0 1em;
+}
+
+.prompt-data-field{
+  margin-top: 2em;
+}
+
+.select{
+  width: 25em;
+  height: 4em;
+}
+
+.options{
+ zoom: 0;  
+}
+.prompt-button{
+  margin-top: 2em;
+}
+
+.prompt-example{
+  display: inline;
+}
+
+.prompt-para{
+text-align: justify;
+font-size: 1.1em;
+}
+
+.what-prompt{
+margin: 5em 0;
+text-align: center;
+}
+
+.prompt-p{
+padding: 1em;
+text-align: justify;
+font-size: 1.2em;
+}
+
+.prompt-points{
+text-align: start;
+}
+
+.prompt-point{
+margin:1em auto ;
+font-size: 1.3em;
+}
+
+/* front page media query css finish mobile device  */
+
+  
+  /* footer css media query start mobile device */
+.footer{
+  padding:3em 0;
+  display: inline;
+  background-color: black;
+  gap: 0;
+}
+
+.footer-name{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.links-footer{
+  color: grey;
+  display: flex;
+  grid-gap: 2em;
+  text-decoration: none;
+  margin-top: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-footer:hover{
+ transition: 1s;
+  color:rgb(255, 251, 251);
+}
+
+.footer-info{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-prompt{
+margin-top: 5em;
+margin-bottom: 5em;
+}
+
+.datasets{
+  background-color: black;
+  padding: 3em 0;
+}
+
+/* footer css media query finish mobile device */
+}
+
+
+
+@media screen and (max-width:950px) {
+  /* footer css media query start tablet device */
+  
+  .footer{
+    padding:3em 0;
+    display: inline;
+    background-color: black;
+    gap: 0;
+  }
+  
+  .footer-name{
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .links-footer{
+    color: grey;
+    display: flex;
+    grid-gap: 2em;
+    text-decoration: none;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .links-footer:hover{
+   transition: 1s;
+    color:rgb(255, 251, 251);
+  }
+  
+  .footer-info{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .footer-prompt{
+  margin-top: 5em;
+  margin-bottom: 5em;
+  }
+
+  .datasets{
+    background-color: black;
+    padding: 3em 0;
+  }
+  /* footer css media query finish tablet device */
+  }

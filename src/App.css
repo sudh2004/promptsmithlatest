@@ -1,0 +1,231 @@
+/* the boxes finish */
+
+.data-midcontact{
+    height: 35em;
+    background-color:rgb(6, 6, 46);
+    text-align: center;
+}
+
+.data-con1
+{
+    padding: 3em 5em .5em 5em ;
+    color: white;
+}
+
+.data-con2
+{
+    padding: .2em 15em;
+    text-align: justify center;
+    color: white;
+}
+
+.button-data{
+    width: 15em;
+    height: 3em;
+}
+
+.button-point{
+    padding: 5em 0 0 0;
+}
+
+.box-element{
+    background-color: rgb(172, 172, 172);
+    padding: 2em 0 ;
+    margin-bottom: 4em;
+}
+
+.box-row{
+    display: flex;
+    margin: 4em;
+}
+
+.head-center{
+    text-align: center;
+    margin: 1em;
+}
+
+.box{
+    margin: 1em;
+    padding: 2em;
+    text-align: justify;
+}
+.box:hover{
+    transition: .3s;
+    scale: 1.5;
+    background-color: black;
+    color: white;
+    margin: 1em;
+    padding: 2em;
+    text-align: justify;
+}
+
+.para-card{
+    padding-top: 1em;
+    line-height: 1.5em;
+}
+
+.hyper-code{
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+}
+.hyper-code:hover{
+    text-decoration:underline;
+    color: blue;
+}
+
+.navigationLInk{
+    cursor: pointer;
+}
+
+.flex-contact{
+    display: flex;
+}
+
+.contact-form{
+    padding: 1em 0 1em 1em;
+}
+
+.form-field{
+    width: 40em;
+    height: 3em;
+}
+
+.contact-info{
+    margin: 1em 0 1em 0;
+}
+
+.card-contact{
+    padding: 3em 0 ;
+    margin:2em;
+}
+
+.card-contact-expert{
+   margin: 2em 10em;
+   padding: 1.5em 5em;
+}
+
+
+.contact-number{
+    color: white;
+    background-color: black;
+    padding: 3em;
+    margin: 3em 3em 12em 3em;
+    border: 2px solid rgb(8, 8, 8);
+}
+
+.contact-form-data{
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    
+    /* the boxes finish */
+
+.data-midcontact{
+    height: 50em;
+    background-color:rgb(6, 6, 46);
+    text-align: center;
+}
+
+.data-con1
+{
+    padding: 1em 1em .5em 1em ;
+    color: white;
+}
+
+.data-con2
+{
+    padding: .2em 1em;
+    text-align: justify center;
+    color: white;
+}
+
+.button-data{
+    width: 15em;
+    height: 3em;
+}
+.button-point{
+    padding: 5em 0 0 0;
+}
+
+.box-element{
+    background-color: rgb(172, 172, 172);
+    padding: 1em 0 ;
+    margin-bottom: 4em;
+}
+
+.box-row{
+    display: inline;
+    margin: 2em;
+}
+
+.head-center{
+    text-align: center;
+    margin: 0m;
+}
+
+.box{
+    margin: 1em;
+    padding: 2em;
+    text-align: justify;
+}
+
+.para-card{
+    padding-top: 1em;
+    line-height: 1.5em;
+}
+
+.hyper-code{
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+}
+.hyper-code:hover{
+    text-decoration:underline;
+    color: blue;
+}
+
+.navigationLInk{
+    cursor: pointer;
+}
+
+.flex-contact{
+    display: inline;
+}
+
+.contact-form{
+    padding: 1em 0 1em 1em;
+}
+
+.form-field{
+    width: 17em;
+    height: 3em;
+}
+
+.contact-info{
+    margin: 1em 0 3em 0;
+}
+
+.card-contact{
+    padding: 3em 0 0 0 ;
+    margin:1em;
+}
+
+.card-contact-expert{
+   margin: 2em 1em;
+   padding: 1.5em 1em;
+}
+
+
+.contact-number{
+    color: white;
+    background-color: black;
+    padding: 2em;
+    margin: 3em;
+    border: 2px solid rgb(8, 8, 8);
+}
+
+.contact-form-data{
+    text-align: center;
+}
+
+}

@@ -1,0 +1,89 @@
+.home{
+    text-align: center;
+    background-color: rgb(219, 218, 218);
+}
+
+.logo{
+    width: 10em;
+    height: 10em;
+}
+
+.textfield-data{
+    width: 35em;
+    height: 2em;
+}
+
+.login-data{
+    margin-top:2em;
+}
+
+.prompt-additonals{
+    margin-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.links{
+    color: blue;
+    text-decoration: none;
+}
+.links:hover{
+    transition: .1s;
+    background-color: rgb(128, 127, 127);
+    padding: .5em;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+   padding:3em 0;
+}
+
+.card{
+    margin: 0 15em;
+}
+
+
+@media screen and (max-width:600px) {
+    .home{
+        text-align: center;
+        background-color: rgb(219, 218, 218);
+    }
+    
+    .logo{
+        width: 10em;
+        height: 10em;
+    }
+    
+    .textfield-data{
+        width: 17em;
+        height: 2em;
+    }
+    
+    .login-data{
+        margin-top:2em;
+    }
+    
+    .prompt-additonals{
+        margin-top: 1.5em;
+        padding-bottom: 2em;
+    }
+    
+    .links{
+        color: blue;
+        text-decoration: none;
+    }
+    .links:hover{
+        transition: .1s;
+        background-color: rgb(128, 127, 127);
+        padding: .5em;
+        color: rgb(255, 255, 255);
+    }
+    
+    .container{
+       padding:3em 0;
+    }
+    
+    .card{
+        margin: 0 1em;
+        padding: 1em;
+    }
+}
